@@ -21,7 +21,7 @@ public class EmployeeRunner implements CommandLineRunner {
 		
 		Employee emp1=new Employee(10, "madhav", 20.4);
 		Employee emp2=new Employee(11, "teja", 22.4);
-		
+		//test
 		repository.save(emp1);
 		repository.save(emp2);
 		System.out.println("save done");
